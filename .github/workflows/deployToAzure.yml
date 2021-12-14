@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Deploy
 
 # Controls when the workflow will run
 on:
@@ -28,7 +28,7 @@ jobs:
           # Action to perform
           action: "upload"
           # Directory location of the application source code
-          app_location: "dist"
+          app_location: "testStatic/dist"
           # Required token
           azure_static_web_apps_api_token: "a94bd6542e2006af846cd4817f30b92520dff94b5369ada57407c4a12b173ab90-7187ebf7-d3e3-439b-8238-6d0fd951579300354662"
     
